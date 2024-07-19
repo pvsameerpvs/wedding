@@ -7,6 +7,7 @@ import { confetti } from './confetti.js';
 import { bootstrap } from './bootstrap.js';
 import { request, HTTP_GET } from './request.js';
 
+
 export const util = (() => {
 
     const opacity = (id, speed = 0.01) => {
